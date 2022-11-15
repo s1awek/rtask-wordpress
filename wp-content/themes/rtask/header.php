@@ -131,7 +131,7 @@
 								'walker'            => new bootstrap_5_wp_nav_menu_walker(),
 							));
 							?>
-							<a href="<?php the_field('header_button_uri', 'option') ?>" class="btn btn-light ms-lg-auto mx-auto">
+							<a href="<?php the_field('header_button_uri', 'option') ?>" class="btn btn-light ms-lg-auto me-lg-0 mx-auto">
 								<span><?php the_field('header_button_text', 'option') ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
 									<path d="M552 64H144l-8-45c-3-11-13-19-24-19H12C5 0 0 5 0 12v24c0 7 5 12 12 12h80l70 356a64 64 0 0 0 46 108c35 0 64-29 64-64a64 64 0 0 0-9-32h146a64 64 0 0 0-9 32 64 64 0 1 0 108-46l1-5c4-15-8-29-23-29H204l-10-48h313c11 0 21-8 23-19l45-208c4-15-8-29-23-29zM208 472a24 24 0 1 1 0-48 24 24 0 0 1 0 48zm256 0a24 24 0 1 1 0-48 24 24 0 0 1 0 48zm23-200H185l-31-160h368l-35 160z" fill="#fff" />
