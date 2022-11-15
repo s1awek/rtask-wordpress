@@ -83,8 +83,6 @@
 								</ul>
 							<?php
 							endif; ?>
-
-
 							<?php
 							wp_nav_menu(array(
 								'theme_location'    => 'menu-1',
@@ -133,14 +131,6 @@
 								'walker'            => new bootstrap_5_wp_nav_menu_walker(),
 							));
 							?>
-							<!-- <ul class="navbar-nav navbar-nav--2">
-								<li class="nav-item">
-									<a class="nav-link" href="#">about us</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">gallery</a>
-								</li>
-							</ul> -->
 							<a href="<?php the_field('header_button_uri', 'option') ?>" class="btn btn-light ms-lg-auto mx-auto">
 								<span><?php the_field('header_button_text', 'option') ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
